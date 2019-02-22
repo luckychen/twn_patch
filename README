@@ -1,7 +1,7 @@
 This is patch files to make twn able to run at cherry-creek with old version of matlab.
-To run twn on cherry-creek, please copy the .m files to twn directory and replace the old file if with same name.
-dataset function will return two cell matrix instead of a "dataset" class which is only available from statistical toolbox
-the check_prerequisites and twn.m was modified to make script runnable without dataset class support
+To run twn on cherry-creek, please copy the .m files to twn directory and replace the exist files with same name.
+dataset function will return two cell matrices instead of a "dataset" class which is only available through statistical toolbox
+the check_prerequisites.m and twn.m was modified to make script runnable without dataset class support
 If we have a newer version of matlab, using table class to replace dataset class will be a better choice. 
 
 Still under testing, please contact me for any errors.
